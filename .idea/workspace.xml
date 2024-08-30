@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="771ff39d-db13-426e-8921-c7c1bf360861" name="Changes" comment="feat(semana2/):Ejercicio 3 - Total Hamburguesas">
+    <list default="true" id="771ff39d-db13-426e-8921-c7c1bf360861" name="Changes" comment="feat(semana2/):Ejercicio 5 - Pagos mensuales">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
     "Application.MainAdivina.executor": "Run",
     "Application.MainEjercicio3.executor": "Run",
     "Application.MainEjercicio4.executor": "Run",
+    "Application.MainEjercicio5.executor": "Run",
     "Application.MainValidationPass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,7 +60,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainEjercicio4">
+  <component name="RunManager" selected="Application.MainEjercicio5">
     <configuration name="MainAdivina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo1.semana2.MainAdivina" />
       <module name="exampleBasicosKodigo" />
@@ -98,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainEjercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo1.semana2.MainEjercicio5" />
+      <module name="exampleBasicosKodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo1.semana2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainValidationPass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo1.semana2.MainValidationPass" />
       <module name="exampleBasicosKodigo" />
@@ -113,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainEjercicio5" />
         <item itemvalue="Application.MainEjercicio4" />
         <item itemvalue="Application.MainEjercicio3" />
         <item itemvalue="Application.MainAdivina" />
@@ -177,7 +193,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724977421765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(semana2/):Ejercicio 4 - Ahorros mensuales">
+      <option name="closed" value="true" />
+      <created>1724978496106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724978496106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(idea/):Add">
+      <option name="closed" value="true" />
+      <created>1724978603565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724978603565</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(idea/):Add">
+      <option name="closed" value="true" />
+      <created>1724978625547</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724978625547</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(semana2/):Ejercicio 5 - Pagos mensuales">
+      <option name="closed" value="true" />
+      <created>1724980217778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724980217778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +261,9 @@
     <MESSAGE value="feat(semana2/):Ejercicio 2 - adivinar random - add mejoras" />
     <MESSAGE value="feat(idea/):updates" />
     <MESSAGE value="feat(semana2/):Ejercicio 3 - Total Hamburguesas" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(semana2/):Ejercicio 3 - Total Hamburguesas" />
+    <MESSAGE value="feat(semana2/):Ejercicio 4 - Ahorros mensuales" />
+    <MESSAGE value="feat(idea/):Add" />
+    <MESSAGE value="feat(semana2/):Ejercicio 5 - Pagos mensuales" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(semana2/):Ejercicio 5 - Pagos mensuales" />
   </component>
 </project>
