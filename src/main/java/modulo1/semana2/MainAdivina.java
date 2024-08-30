@@ -12,15 +12,22 @@ public class MainAdivina {
         Scanner input=new Scanner(System.in);
         while (num!=myRandom){
             intentos++;
-            System.out.println("Ingrese un numero: ");
+            System.out.println("(Intento: "+ intentos +") Ingrese un numero: ");
             num=input.nextInt();
 
-            if(num>myRandom){
-                System.out.println("Tu numero es mayor");
-            }else if(num<myRandom){
-                System.out.println("Tu numero es menor");
+            if(intentos<5){
+                if(num>myRandom){
+                    System.out.println("Tu numero es mayor. La diferencia es: "+ Math.abs((myRandom-num)));
+                }else if(num<myRandom){
+                    System.out.println("Tu numero es menor. La diferencia es: "+ (myRandom-num));
+                }
+            }else{
+                if (num!=myRandom) {
+                    System.out.println("Ya no tienes mas intentos.");
+                    break;
+                }
             }
         }
-        System.out.println("Has encontrado tu numero " + num + " en " + intentos + " intentos");
+        if (num==myRandom)System.out.println("Has encontrado tu numero " + num + " en " + intentos + " intentos");
     }
 }
