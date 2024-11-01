@@ -22,4 +22,11 @@ public class CanalNoticia implements Subject{
             observer.update(noticia);
         }
     }
+
+    @Override
+    public void notificarExplicit(String noticia) {
+        for(Observer observer : observers){
+            observer.updateExplicit(noticia);
+        }
+    }
 }
